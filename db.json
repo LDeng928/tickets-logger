@@ -13,13 +13,6 @@
       "tech": "Sam Smith",
       "date": "2021-10-25T18:26:32.805Z",
       "id": 2
-    },
-    {
-      "message": " 1122 wireless down",
-      "attention": true,
-      "tech": " ",
-      "date": "2021-10-25T18:26:46.425Z",
-      "id": 3
     }
   ],
   "techs": [
