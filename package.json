@@ -1,13 +1,19 @@
 {
   "name": "systemlogger",
   "version": "0.1.0",
+  "description": "IT tickets logger",
+  "main": "server.js",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
     "materialize-css": "^1.0.0",
     "moment": "^2.29.1",
+    "mongoose": "^6.0.12",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-moment": "^1.1.1",
@@ -46,7 +52,8 @@
   },
   "devDependencies": {
     "concurrently": "^6.3.0",
-    "json-server": "^0.17.0"
+    "json-server": "^0.17.0",
+    "nodemon": "^2.0.14"
   },
   "proxy": "http://localhost:5000"
 }
